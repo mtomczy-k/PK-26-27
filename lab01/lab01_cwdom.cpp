@@ -15,7 +15,7 @@ cout << "T = " << T << endl;
 cout << "R = " << R << endl;
 
 cout << "Wynik rzeczywisty: " << I << endl;
-cout << "Wynik całkowity: " << static_cast
+cout << "Wynik całkowity: " << static_cast<int>I << endl;
 
   return to 0;
 }
